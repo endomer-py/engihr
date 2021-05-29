@@ -1,0 +1,18 @@
+Package: engihr
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Daniel E.",
+           family = "de la Rosa",
+           role = c("aut", "cre"),
+           email = "drdsdaniel@gmail.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    lifecycle
+RdMacros: lifecycle
