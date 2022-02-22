@@ -1,18 +1,33 @@
 Package: engihr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Funciones para trabajar con la ENGIH 2018 del Banco Central
+Version: 0.1.0
 Authors@R: 
-    person(given = "Daniel E.",
+    c(person(given = "Daniel E.",
            family = "de la Rosa",
            role = c("aut", "cre"),
-           email = "drdsdaniel@gmail.com")
-Description: What the package does (one paragraph).
+           email = "me@dnldelarosa.com"),
+    person(given = "Adatar",
+           role = "cph"))
+Description: Este paquete contiene funciones para trabajar con los datos de la 
+  Encuesta Nacional Gastos e Ingresos de los Hogares (ENGIH, 2018).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports: 
     magrittr,
-    lifecycle
+    lifecycle,
+    labeler
+Remotes:
+    adatar-do/labeler
 RdMacros: lifecycle
+URL: https://github.com/endomer-py/engihr, https://endomer-py.github.io/engihr/
+BugReports: https://github.com/endomer-py/engihr/issues
+Suggests: 
+    knitr,
+    covr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
