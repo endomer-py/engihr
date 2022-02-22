@@ -1,0 +1,10 @@
+pandoc: 2.7.3
+pkgdown: 2.0.2
+pkgdown_sha: ~
+articles:
+  engihr: engihr.html
+last_built: 2022-02-22T21:10Z
+urls:
+  reference: https://endomer-py.github.io/engihr/reference
+  article: https://endomer-py.github.io/engihr/articles
+
